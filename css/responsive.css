@@ -1,3 +1,68 @@
+@media screen and (max-width: 780px) {
+    body, container {
+        margin: 0 auto;
+        padding:0;
+    }
+    img {
+        height: 100px;
+    }
+    #why img {
+        height: 80px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    #lezioni .row,
+    #steps .row,
+    #why .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 780px;
+        margin: 0 auto;
+        padding-top: 0px;
+        font-size: 0.9em;
+        padding-bottom: 10px;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding-bottom: 10px;
+    }
+    #steps .row {
+        background-color: #F2F2CD;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+        padding-bottom: 10px;
+        width: 90%;
+    }
+    #why hr {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 420px) {
     body, container {
         margin: 0 auto;
@@ -21,10 +86,12 @@
         padding-bottom: 10px;
         font-size: 12px;
     }
+    #steps .row, 
     .container.grey {
         background-color: white;
     }
-    #lezioni .row {
+    #lezioni .row,
+    #why .row {
         background-color: #F2F2CD;
     }
     #lezioni .row,
@@ -33,7 +100,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #F2F2CD;
+        justify-content: center;
         margin-top: 0;
         width: 420px;
         margin: 0;
@@ -41,23 +108,20 @@
         font-size: 0.7em;
         padding-bottom: 10px;
     }
-    #steps .row {
-        background-color: white;
-    }
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
+        display: inline-block;
         margin-top: 0;
         padding-bottom: 10px;
         width: 90%;
     }
     #lezioni .row>.left,
-    #lezioni .row>.right {
-        width: 90%;
-    }
+    #lezioni .row>.right,
     #steps .row>.left,
     #steps .row>.central,
-    #steps .row>.right {
+    #steps .row>.right{
+        display: inline-block;
         width: 90%;
     }
 }
