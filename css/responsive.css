@@ -1,14 +1,13 @@
 @media screen and (max-width: 419px) {
-    body {
+    body, container {
         margin: 0 auto;
         padding:0;
     }
     img {
-
         height: 100px;
     }
     #why img {
-        height: 40px;
+        height: 60px;
     }
     h1 {
     font-size: 2.5em;
@@ -35,7 +34,8 @@
         
     }
     #lezioni .row,
-    #steps .row {
+    #steps .row,
+    #why .row {
         padding-bottom: 10px;
     }
     .row {
