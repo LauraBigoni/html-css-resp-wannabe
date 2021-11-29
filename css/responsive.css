@@ -1,0 +1,24 @@
+@media screen and (max-width: 419px) {
+    body {
+        margin: 0 auto;
+        padding:0;
+    }
+    .row {
+        width: 420px;
+        margin: 0;
+    }
+    #lezioni {
+        background-color: #F2F2CD;
+    }
+    #lezioni .row h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    }
+    #lezioni .row .left,
+    #lezioni .row .right {
+        float: none;
+        width: 400px;
+        margin-top: 20px;
+    }
+}
