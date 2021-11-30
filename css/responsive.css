@@ -27,7 +27,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 780px;
+        width: 100%;
         margin: 0 auto;
         padding-top: 0px;
         font-size: 0.9em;
@@ -104,7 +104,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 0;
-        width: 420px;
+        width: 100%;
         margin: 0;
         padding-top: 0px;
         font-size: 0.7em;
@@ -129,6 +129,7 @@
     #why hr {
         display: block;
     }
+    
     
     /* *Fine media query */
 }
