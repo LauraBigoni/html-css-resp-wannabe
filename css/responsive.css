@@ -47,7 +47,7 @@
         padding-bottom: 10px;
     }
     #steps .row {
-        background-color: #F2F2CD;
+        background-color: #f5f5e2;
     }
     #why .row>.first,
     #why .row>.second,
@@ -61,6 +61,8 @@
     #why hr {
         display: none;
     }
+
+    /* *Fine media query */
 }
 
 @media screen and (max-width: 420px) {
@@ -124,4 +126,9 @@
         display: inline-block;
         width: 90%;
     }
+    #why hr {
+        display: block;
+    }
+    
+    /* *Fine media query */
 }
